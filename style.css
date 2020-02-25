@@ -1,0 +1,148 @@
+h1{
+    font-size: 40px;
+    font-weight:bolder ;
+    color: fuchsia;
+}
+h2{
+    font-family: 'Abel', ;
+    font-family: 'Hind', ;
+
+}
+h4{
+    font-family: 'Amatic SC';
+    font-weight: lighter;
+}
+
+/* Tags */
+section{
+    margin-bottom: 50px;
+    padding-bottom: 200px;
+    height:300px;
+}
+
+.link-button{
+    
+        background-color: #ff4dff;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 20px;
+}
+/*  
+div{
+    margin-bottom: 20px;
+}
+*/
+
+
+/* ID */
+
+
+#last-div{
+    width: 400px;
+    height: 50px;  
+    padding: 50px;
+    border: 1px solid red;
+    text-align: center;
+    background-color: fuchsia;
+    color: white;
+    margin: auto;
+  }
+ #font{font-weight: lighter;}
+    
+#first{
+    font-family: 'Open Sans Condensed', ;
+    font-weight: 500;
+}
+#end{
+    font-family: monospace;
+    margin-left: 350px;
+    margin-right: 300px;
+   /*  margin-top: 70px;
+    margin-bottom: 80px;
+    margin-right: 20px;
+    margin-left:400px; */
+}
+
+#first-image{
+    height: auto;
+    width: 500px;
+
+}
+#image2{
+    
+    height: 500px;
+    width: 400px;
+}
+
+
+
+
+/* Class */
+
+
+.last-para{
+    
+    font-family: 'Open Sans Condensed', ;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    margin-right: 20px;
+    margin-left:300px;
+}
+.second-last{
+    font-family: monospace;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    margin-right: 20px;
+    margin-left:400px;
+}
+
+
+
+.first{
+
+    width:40%;
+    float: left;
+    margin-left: 10px;
+    padding-left: 10px;
+
+}
+
+
+
+.second{
+    width:47%;
+    float: right;
+    margin-left: 10px;
+    padding-left: 10px;
+
+
+}
+.image3{
+    width: 30%;
+    height: auto;
+    float: left;
+
+}
+
+
+
+
+/* Background Images */
+#header{
+    background-image: url("header.png");
+}
+#bio{
+    background-image: url("bio.png");
+    height: 600px;
+}
+footer{
+    background-image: url("foot.png");
+}
+#work{
+    background-image: url("work.png");
+}
