@@ -11,6 +11,10 @@ h2{
 h4{
     font-family: 'Amatic SC';
     font-weight: lighter;
+    margin-left: 50px;
+}
+h3{
+    margin-left: 50px;
 }
 
 /* Tags */
@@ -20,37 +24,18 @@ section{
     height:300px;
 }
 
-.link-button{
-    
-        background-color: #ff4dff;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 20px;
-}
-/*  
-div{
-    margin-bottom: 20px;
-}
-*/
-
-
 /* ID */
 
 
 #last-div{
-    width: 400px;
+    width: 420px;
     height: 50px;  
     padding: 50px;
     border: 1px solid red;
     text-align: center;
     background-color: fuchsia;
     color: white;
-    margin: auto;
+    margin:auto;
   }
  #font{font-weight: lighter;}
     
@@ -60,7 +45,7 @@ div{
 }
 #end{
     font-family: monospace;
-    margin-left: 350px;
+    margin-left: 380px;
     margin-right: 300px;
    /*  margin-top: 70px;
     margin-bottom: 80px;
@@ -78,7 +63,10 @@ div{
     height: 500px;
     width: 400px;
 }
-
+#copyright{
+    margin-left: 360px;
+    font-weight: bolder;
+}
 
 
 
@@ -102,6 +90,18 @@ div{
 }
 
 
+.link-button{
+    
+    background-color: #ff4dff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
 
 .first{
 
@@ -126,6 +126,7 @@ div{
     width: 30%;
     height: auto;
     float: left;
+    padding: 15px;/* This Line Newly Added For Third Commmit */
 
 }
 
@@ -145,4 +146,5 @@ footer{
 }
 #work{
     background-image: url("work.png");
+    margin-left: 30px;   /* This Line Newly Added For Third Commmit */
 }
